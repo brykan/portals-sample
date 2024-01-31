@@ -9,7 +9,7 @@ To try the demo, the Android applications requires you to input a Portals regist
 
 ### Portals registration key
 
-Get you registration key from [ionic.io/register-portals](https://ionic.io/register-portals), then replace `YOUR_KEY_HERE` with your key inside app/build.gradle.kts.
+Get you registration key from [ionic.io/register-portals](https://ionic.io/register-portals), then replace `""""YOUR_KEY_HERE""""` with your key inside app/build.gradle.kts.
 
 Build and run the Android app
 
@@ -19,10 +19,6 @@ Build and run the Android app
 Before you build the Android source you will need to build the web resources in the `web` directory:
 ```bash
 cd ./web
-npm install
-npm run build
-
-cd ../featured-component
 npm install
 npm run build
 ```

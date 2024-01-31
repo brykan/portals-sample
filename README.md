@@ -1,5 +1,5 @@
 # PortalsSample
-E-commerce Demo App using Ionic Portals and Jetpack compose based on an original [Ionic Portals demo](https://github.com/ionic-team/portals-ecommerce-demo)
+Demo App using Ionic Portals and Jetpack compose based on an original [Ionic Portals demo](https://github.com/ionic-team/portals-ecommerce-demo)
 
 This is an example application built in Android that uses web resources for its Portals.
 

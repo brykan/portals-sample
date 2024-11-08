@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.paylocity.jstanek.portalssample"
+    namespace = "com.ionic.io.portalssample"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.paylocity.jstanek.portalssample"
+        applicationId = "com.ionic.io.portalssample"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -17,7 +17,7 @@ android {
         buildConfigField(
             "String",
             "IONIC_API_KEY",
-            "YOUR_KEY_HERE"
+            "\"portals key here\""
         )
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

@@ -18,3 +18,4 @@ cd ./web
 npm install
 npm run build
 ```
+Once you build your web application, create a folder in the Android project assets directory and copy the contents of the build directory.

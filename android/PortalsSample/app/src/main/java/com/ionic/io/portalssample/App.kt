@@ -15,7 +15,7 @@ class App : Application() {
         instance = this
         super.onCreate()
 
-        PortalManager.register("Key Here")
+        PortalManager.register(BuildConfig.IONIC_API_KEY)
 
         // Checkout Portal
         newPortal("checkout")
